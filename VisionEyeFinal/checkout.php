@@ -99,14 +99,14 @@ if(isset($_POST['order'])){
             $cart_total_price = ($fetch_cart_items['price'] * $fetch_cart_items['quantity']);
             $cart_grand_total += $cart_total_price;
    ?>
-   <p> <?= $fetch_cart_items['name']; ?> <span>(<?= '$'.$fetch_cart_items['price'].'/- x '. $fetch_cart_items['quantity']; ?>)</span> </p>
+   <p> <?= $fetch_cart_items['name']; ?> <span>(<?= 'Rp'.$fetch_cart_items['price'].'/ x '. $fetch_cart_items['quantity']; ?>)</span> </p>
    <?php
     }
    }else{
       echo '<p class="empty">your cart is empty!</p>';
    }
    ?>
-   <div class="grand-total">grand total : <span>$<?= $cart_grand_total; ?>/-</span></div>
+   <div class="grand-total">grand total : <span>Rp<?= $cart_grand_total; ?></span></div>
 </section>
 
 <section class="checkout-orders">
@@ -132,9 +132,6 @@ if(isset($_POST['order'])){
             <span>payment method :</span>
             <select name="method" class="box" required>
                <option value="cash on delivery">cash on delivery</option>
-               <option value="credit card">credit card</option>
-               <option value="paytm">paytm</option>
-               <option value="paypal">paypal</option>
             </select>
          </div>
          <div class="inputBox">
@@ -147,15 +144,15 @@ if(isset($_POST['order'])){
          </div>
          <div class="inputBox">
             <span>city :</span>
-            <input type="text" name="city" placeholder="e.g. mumbai" class="box" required>
+            <input type="text" name="city" placeholder="e.g. DKI Jakarta" class="box" required>
          </div>
          <div class="inputBox">
             <span>state :</span>
-            <input type="text" name="state" placeholder="e.g. maharashtra" class="box" required>
+            <input type="text" name="state" placeholder="e.g. Jakarta Selatan" class="box" required>
          </div>
          <div class="inputBox">
             <span>country :</span>
-            <input type="text" name="country" placeholder="e.g. India" class="box" required>
+            <input type="text" name="country" placeholder="e.g. Indonesia" class="box" required>
          </div>
          <div class="inputBox">
             <span>pin code :</span>

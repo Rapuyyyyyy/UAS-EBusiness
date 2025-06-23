@@ -17,7 +17,9 @@ if(isset($message)){
 
    <div class="flex">
 
-      <a href="admin_page.php" class="logo">Admin<span>VisionEye</span></a>
+      <a href="admin_page.php" class="logo">
+         <img src="images/logo.png" alt="VisionEye Logo" style="height: 50px;">
+      </a>
 
       <nav class="navbar">
          <a href="admin_page.php">Home</a>

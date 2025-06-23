@@ -58,13 +58,6 @@ if(isset($_GET['delete'])){
 
 <?php include 'admin_header.php'; ?>
 
-<?php
-if(isset($message)){
-   foreach($message as $msg){
-      echo '<div class="message"><span>'.$msg.'</span><i class="fas fa-times" onclick="this.parentElement.remove();"></i></div>';
-   }
-}
-?>
 
 <section class="placed-orders">
 
@@ -94,7 +87,7 @@ if(isset($message)){
          <p> email : <span><?= $fetch_orders['email']; ?></span> </p>
          <p> number : <span><?= $fetch_orders['number']; ?></span> </p>
          <p> address : <span><?= $fetch_orders['address']; ?></span> </p>
-         <p> total price : <span>$<?= $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> total price : <span>Rp<?= $fetch_orders['total_price']; ?>/-</span> </p>
          <p> payment method : <span><?= $fetch_orders['method']; ?></span> </p>
          <p> payment status : <span><?= $fetch_orders['payment_status']; ?></span> </p>
          <p><strong>Ordered Products:</strong></p>

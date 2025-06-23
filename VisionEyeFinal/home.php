@@ -121,28 +121,40 @@ if(isset($_POST['add_to_cart'])){
       <div class="box">
          <img src="images/k-sporty.png" alt="">
          <h3>Sporty</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+         <p>Sport sunglasses with aerodynamic design, lightweight frame, and anti-glare lenses.</p>
+         <p>🔹 Lens: Polarized</p>
+         <p>🔹 Material: Polycarbonate</p>
+         <p>🔹 Features: UV protection, anti-slip</p>
          <a href="category.php?category=Sporty" class="btn">Order</a>
       </div>
 
       <div class="box">
          <img src="images/k-casual.jpg" alt="">
          <h3>Casual</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+         <p>Simple and lightweight glasses for everyday wear with a minimalist look.</p>
+         <p>🔹 Lens: Clear</p>
+         <p>🔹 Material: Acetate</p>
+         <p>🔹 Features: Comfortable for all-day use</p>
          <a href="category.php?category=Casual" class="btn">Order</a>
       </div>
 
       <div class="box">
          <img src="images/k-fashion.jpg" alt="">
          <h3>Fashion</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+         <p>Trendy glasses designed to complement your fashionable outfit.</p>
+         <p>🔹 Lens: Light tint</p>
+         <p>🔹 Material: Metal & plastic blend</p>
+         <p>🔹 Features: Stylish frame, perfect for OOTD</p>
          <a href="category.php?category=Fashion" class="btn">Order</a>
       </div>
 
       <div class="box">
          <img src="images/k-uv.png" alt="">
          <h3>Ultraviolet</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat.</p>
+         <p>Dark sunglasses to protect your eyes from excessive UV exposure.</p>
+         <p>🔹 Lens: UV400 protection</p>
+         <p>🔹 Material: Nylon frame</p>
+         <p>🔹 Features: Great for driving & outdoor us</p>
          <a href="category.php?category=Ultraviolet" class="btn">Order</a>
       </div>
 
@@ -163,7 +175,7 @@ if(isset($_POST['add_to_cart'])){
          while($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)){ 
    ?>
    <form action="" class="box" method="POST">
-      <div class="price">$<span><?= $fetch_products['price']; ?></span>/-</div>
+      <div class="price">Rp<span><?= $fetch_products['price']; ?></span>/-</div>
       <a href="view_page.php?pid=<?= $fetch_products['id']; ?>" class="fas fa-eye"></a>
       <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
       <div class="name"><?= $fetch_products['name']; ?></div>

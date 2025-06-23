@@ -55,13 +55,13 @@ if(!isset($user_id)){
 
 <section class="reviews">
 
-   <h1 class="title">clients reivews</h1>
+   <h1 class="title">clients reviews</h1>
 
    <div class="box-container">
 
       <div class="box">
          <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <p>“Model kacamatanya stylish dan ringan banget. Pelayanannya juga ramah. Minus 1 bintang karena pengiriman agak terlambat.”</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -74,7 +74,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <p>“Aku suka banget sama pilihan framenya, banyak yang cocok buat wajahku. Tapi semoga next bisa lebih banyak varian warna.”</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -87,20 +87,20 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <p>“Kacamata nyaman dipakai seharian. Worth it dengan harganya. Cuma kemasannya kurang eksklusif aja menurutku.”</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
          <h3>john deo</h3>
       </div>
 
       <div class="box">
          <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <p>“Sudah coba beli dua kali di Vision Eye, kualitas tetap oke. Kalau bisa, fitur tracking pengirimannya ditingkatkan ya.”</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -113,7 +113,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <p>“Pemeriksaan mata cepat dan akurat. Produk oke, tapi waktu tunggu lensa custom agak lama.”</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -126,13 +126,13 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
+         <p>“Suka banget sama tampilannya yang clean dan elegan. Adminnya fast response, tapi website agak lemot di HP.”</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
          <h3>john deo</h3>
       </div>

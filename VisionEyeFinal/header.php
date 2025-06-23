@@ -17,14 +17,16 @@ if(isset($message)){
 
    <div class="flex">
 
-      <a href="admin_page.php" class="logo">VisionEye</a>
+      <a href="home.php" class="logo">
+         <img src="images/logo.png" alt="VisionEye Logo" style="height: 50px;">
+      </a>
 
       <nav class="navbar">
          <a href="home.php">Home</a>
          <a href="shop.php">Shop</a>
          <a href="orders.php">Orders</a>
          <a href="about.php">About</a>
-         <a href="contact.php">Contact</a>
+         <a href="contact.php">Messages</a>
       </nav>
 
       <div class="icons">
